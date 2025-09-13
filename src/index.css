@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Fonte e fundo base */
+body {
+  @apply bg-gray-950 text-white font-sans;
+  margin: 0;
+  padding: 0;
+}
+
+/* Links padrão */
+a {
+  @apply transition-colors duration-300;
+}
+
+/* Botões globais */
+button {
+  @apply transition duration-300;
+}
+
+/* Animação suave para hover */
+.hover-glow:hover {
+  text-shadow: 0 0 10px rgba(255, 255, 0, 0.7);
+}
+
+.input-dark::placeholder {
+  color: #aaa;
+}
